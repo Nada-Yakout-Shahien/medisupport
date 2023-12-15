@@ -1,23 +1,16 @@
-import Header from "../comp/header";
-import Footer from "../comp/Footer";
-import MainContent from "../comp/MainContent";
-import { Helmet } from "react-helmet-async";
+import Header from "../components/header";
+import Footer from '../components/footer'
 
 const Css = () => {
   return (
     <>
-      <Helmet>
-        <title>CSS Page</title>
-        <meta name="description" content="csssssssssssssssssssss" />
-      </Helmet>
-
-      <Header />
-
-      <MainContent pageName="CSS Page" />
-
+      <Header/> 
+          
+      
       <Footer />
+
     </>
-  );
+  );  
 };
 
 export default Css;

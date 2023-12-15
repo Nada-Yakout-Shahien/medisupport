@@ -1,7 +1,14 @@
- 
-
+import Header from "./components/header";
+import Footer from './components/footer'
 function App() {
-  return <div>App.js file</div>;
+  return (
+    <>
+      <Header />
+      
+
+      <Footer />
+    </>
+  );
 }
 
 export default App;

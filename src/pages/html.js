@@ -1,24 +1,18 @@
-
-
-
-import Header from '../comp/header';
-import Footer from '../comp/Footer';
-import MainContent from '../comp/MainContent';
-import { Helmet  } from 'react-helmet-async';
+import Header from '../components/header'
+import Footer from '../components/footer'
 
 
 const Html = () => {
   return (
     <>
-         <Helmet>
-        <title>HTML Page</title>
-        <meta name="description" content="HTMLLLLLLLLLLLLLLLL" />
-      </Helmet>
-    <Header />
-    <MainContent pageName="HTML Page"  />   
-    <Footer />
-  </>
+      <Header/> 
+
+
+
+      <Footer />
+
+    </>
   );
-}
+};
 
 export default Html;
